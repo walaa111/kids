@@ -1,0 +1,452 @@
+body,html{
+    box-sizing: border-box;
+width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f9f9f9;
+}
+/*header*/
+
+
+.header 
+{
+  background-color:#606060;
+
+margin-top:100px; 
+margin-bottom: 20px;
+margin-left: 14px;
+margin-right: 14px;
+}
+
+.header input
+{
+  border: 0px;
+}
+.header i
+{
+  color: white;
+}
+
+
+.input-group{
+
+  width: 40%;
+  padding: 10px;
+  margin-left: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.input-group span
+{
+  height: 30px;
+}
+.input-group-addon
+{
+  height: 10px;
+}
+.input-group i
+{
+  color:white;
+}
+.input-group-addon {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    background-color: #f3b419;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/*end header*/
+
+.navbar {
+
+
+    opacity: 1;
+    width: 100%;
+    z-index: 99999;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom:5px;
+    border-radius: 0;
+padding-bottom: 10px;
+background-color: #333333;
+
+}
+.navbar .btn-danger:first-of-type
+{
+    margin-left: 0px;
+}
+.navbar .btn-danger
+{
+    margin-top: 5px;
+    background-color: #f1585b;
+    border: 0px;
+
+}
+.navbar-header .btn-danger
+{
+display: none;
+}
+.cart i
+{
+  float: right;
+  margin-right:50px; 
+  margin-top: -40px;
+}
+.navbar-collapse.in {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    line-height: 10px;
+}
+.navbar-header img
+{
+    width: 60px;
+    height: 30px;
+    margin-left: 50px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+
+}
+.navbar-header h1
+{
+   color: white;
+}
+/* t3del 3la menu collaps*/
+
+.navbar-collapse {
+    padding-right: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    
+    color:white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+margin-right: 20px;
+padding-top: 10px;
+margin-top: 5px;
+    font-family: 'Amiri', serif;
+    font-size: 20px;
+    font-family: 'Changa', sans-serif;
+
+}
+
+a:hover{
+    text-decoration: unset;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+
+    color: #80b5e1;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    background-color: #333333;
+    margin-bottom: 5px;
+}
+.navbar-default .navbar-toggle:focus {
+    border-color: #ddd;
+    background-color: #333333;
+    margin-bottom: 5px;
+}
+.navbar-default .navbar-toggle:hover {
+    border-color: #ddd;
+    background-color: #333333;
+    margin-bottom: 5px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: unset;
+}
+
+.dropdown-menu > li > a {
+font-family: 'Merriweather', serif;
+    color: white;
+    border-bottom: 1px solid #ccc;
+    padding-top: 0px;
+}
+
+
+
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+    background-color: unset;
+    border-color: #337ab7;
+}
+
+.navbar-header h3
+{
+  display: block;
+  margin: 10px auto;
+  margin-right: 100px;
+  font-size: 30px;
+  color:white;
+font-family: 'Lalezar', cursive;
+
+}
+.navbar-header h3 span
+{
+    color: #80b5e1;
+    padding: 2px;
+}
+
+
+.navbar img
+{
+
+}
+/*topimage*/
+.topimg  
+{
+width: 100%;
+height:300px;
+background: url(../pics/wallpaper.jpg)no-repeat center ;
+background-size: cover;
+}
+
+/*foooter*/
+
+/*end footer*/
+
+/*footer*/
+.footer
+{
+background-color: #333333;
+color: white;
+
+height: 50px;
+padding: 10px;
+
+
+}
+.footer img
+{
+   width: 50%;
+     height: 200px;
+}
+.footer h3
+{
+    display: inline;
+    
+}
+.footer h3 span
+{
+    color: #80b5e1;
+}
+
+/*end footer*/
+/*clothes*/
+.clothes img
+{
+    width: 100%;
+}
+.clothes .col-xs-6
+{
+    padding: 0px;
+}
+.clothes h3
+{
+    background-color:#80b5e1;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+/*end clothes*/
+.wlada
+{
+
+}
+.wlada img
+{
+width: 100%;
+height: 200px;
+
+}
+.wlada .col-xs-6{
+padding: 0px;
+}
+.wlada h4
+{color: white;
+padding: 10px;
+padding-right: 17px;
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 18px;
+top: 90px;
+font-family: 'El Messiri', sans-serif;
+background-color: #8dbde3;
+height: 50px;
+border: 1px solid white;
+}
+/*topbuttob*/
+.topbutton
+{
+ 
+    color:white;
+   width:40px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 8px;
+    position: fixed;
+    right: 15px;
+    bottom: 7px;
+    z-index: 999999;
+    background-color:#f2baa9;
+    border-radius: 10%;
+    cursor: pointer;
+    display: none;
+    
+   
+
+}
+.topbutton i:hover
+{
+    color: white;
+}
+/*learning*/
+.learning img
+{
+width: 100%;
+}
+.learning h3
+{margin-top: 0px;
+    background-color: #f2baa9;
+font-family: 'El Messiri', sans-serif;
+    
+    padding: 10px;
+    color: white;
+}
+.learning h4
+{
+    color: white;
+padding: 10px;
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 18px;
+top: 90px;
+font-family: 'El Messiri', sans-serif;
+background-color: #8dbde3;
+
+}
+.wagbat h4{
+    color: white;
+padding: 10px;
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 18px;
+top: 90px;
+font-family: 'El Messiri', sans-serif;
+background-color: #8dbde3;
+
+}
+/*end learning*/
+/*inner clothes*/
+.innerclothes img
+{
+    width: 100%;
+    height: 200px;
+}
+.innerclothes .col-xs-6
+{
+    padding: 0px;
+}
+/*end inner clothes*/
+/*advices*/
+.topimgadvices
+{
+    width: 100%;
+height:300px;
+background: url(../pics/bottles.jpg)no-repeat center ;
+background-size: cover;
+}
+.advices
+{
+    padding: 30px;
+}
+.advices .expect
+{
+    background-color: #80b5e1;
+    color: white;
+    margin-top: 0px;
+    padding: 10px;
+    padding-right: 20px;
+font-family: 'El Messiri', sans-serif;
+    
+}
+.advices h3
+{
+ 
+    margin-top: 0px;
+font-family: 'El Messiri', sans-serif;
+}
+
+/*end advices*/
+/*early*/
+.topimgearly
+{
+    width: 100%;
+height:300px;
+background: url(../pics/bottle2.jpg)no-repeat center ;
+background-size: cover;
+}
+/*end early*/
+/*sleep*/
+.topimgsleep
+{
+    width: 100%;
+height:300px;
+background: url(../pics/sleep.jpg)no-repeat center ;
+background-size: cover;
+}
+/*end sleep*/
+/*tooth*/
+.topimgtooth
+{
+    width: 100%;
+height:300px;
+background: url(../pics/tooth.jpg)no-repeat center ;
+background-size: cover;
+}
+/*end tooth*/
+/*ideas*/
+.topimgideas
+{
+    width: 100%;
+height:300px;
+background: url(../pics/reading.jpg)no-repeat center ;
+background-size: cover;
+}
+/*ens ideas*/
+/*baby*/
+.topimgbaby
+{
+    width: 100%;
+height:300px;
+background: url(../pics/noneya.jpg)no-repeat  ;
+background-size: cover;
+}
+/*end baby*/
+/*food*/
+.topimgfood
+{
+    width: 100%;
+height:300px;
+background: url(../pics/wagbat.jpg)no-repeat center ;
+background-size: cover;
+}
+/*ens food*/
